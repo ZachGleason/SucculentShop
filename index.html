@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper" >
+        <div id="header">
+            <img id="logo" class="headercontent" src="Logo.png" alt="Leaf Logo">
+            <p id="headtext" class="headercontent">EasyBay</p>    
+            <input class="headercontent" id="searchbar" type="text" placeholder="   Search anything here"></input>
+            <p  class="headercontent" id="signin">Sign In</p>
+            <img onclick="carting(this)" class="headercontent" id="cart" src="assets/cart-dark.png" alt="Cart">
+        </div>
+        <div id="header2">
+            <p id="Aeonium">Aeonium</p>
+            <p id="Andormischus">Andormischus</p>
+            <p id="Agave">Agave</p>
+            <p id="Aloe">Aloe</p>
+            <p id="Anacampseros">Anacampseros</p>
+            <p id="Aristaloe">Aristaloe</p>
+            <p id="More">More..</p>
+        </div>
+        <hr id="blackline">
+        <div>
+            <p id="underheader">Your Source for Serious Succulent Specialties</p>
+        </div>
+        <div id="box1" class="box1content">
+            <p id="box1-text1">Discover succ-</p>
+            <p id="box1-text2">ulent varieties</p>
+            <p id="box1-text3">one pot or rack</p>
+            <p id="box1-text4">at a time!</p>
+            <p id="box1-text5"> Discover</p> <img id="arrow1" src="assets/arrow-light.png" alt="arrow">
+        </div>
+        <div id="box2">
+            <img id="hover1" src="assets/succulents-1.jpg" alt="" onmouseover="hover(this);" onmouseout="unhover(this);"> 
+        </div>
+        <div> <!-- box3main -->
+            <img id="box3" src="assets/aloe.png" alt="succulent">
+        </div>
+        <div id="box4">  <!-- box4main -->
+            <p id="box4text">Soothing Aloe</p> <img id="arrow2" src="assets/arrow-light.png" alt="arrow">
+        </div>
+        <div id="box5">
+                <img id="one" src="assets/aeonium-s.jpg" alt="">
+                <img id="two" src="assets/aloe-s.jpg" alt="">
+                <img id="three" src="assets/cactus-s.jpg" alt="">
+                <img id="four" src="assets/echeveria-s.jpg" alt="">
+                <img id="five" src="assets/sedum-s.jpg" alt="">
+                <img id="six" src="assets/sempervivum-s.jpg" alt="">
+            <div id="bottomtext">
+                <p id="text1">Aeonium</p>
+                <p id="text2">Aloe</p>
+                <p id="text3">Cactus</p>
+                <p id="text4">Echeveria</p>
+                <p id="text5">Sedum</p>
+                <p id="text6">Sempervivum</p>
+            </div>
+        </div>
+        <div class="w3-container">
+            <img id="image3" src="assets/alert-dark.png" alt="alert">
+            <p id="alert1">This site makes use of third-party cookies, by clicking "I accept" </p>
+            <p id="alert2">you agree to the terms outlined in our <a href="">cookie policy</a></p>
+            <button onclick="this.parentElement.style.display='none'" id="acceptbutton">I Accept</button>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

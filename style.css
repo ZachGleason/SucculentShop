@@ -1,0 +1,403 @@
+#wrapper {
+    height: 997px;
+    width: 1200px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header {
+    width: 1200px;
+    height: 50px;
+    display: inline-block;
+}
+
+#logo {
+    height: 50px;
+    background-color: rgb(73, 190, 181);
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 0px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.headercontent {
+    margin-top: -23px;
+}
+
+#headtext {
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 20px;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#searchbar {
+    height: 30px;
+    width: 700px;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 6px;
+    display: inline-block;
+    border-radius:25px;
+    border: 1px solid grey;
+}
+
+#signin {
+    display: inline-block;
+    margin-left: 1030px;
+    margin-top: 12px;
+    position: absolute;
+}
+
+
+#cart {
+    display: inline-block;
+    height: 40px;
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+/* ------------------- */
+
+#header2 {
+    width: 1200px;
+    height: 50px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Aeonium {
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+}
+
+#Andormischus {
+    display: inline-block;
+    position: absolute;
+    margin-left: 200px;
+}
+
+#Agave {
+    display: inline-block;
+    position: absolute;
+    margin-left: 420px;
+}
+
+#Aloe{
+    display: inline-block;
+    position: absolute;
+    margin-left: 600px;
+}
+
+#Anacampseros {
+    display: inline-block;
+    position: absolute;
+    margin-left: 760px;
+}
+
+#Aristaloe {
+    display: inline-block;
+    position: absolute;
+    margin-left: 980px;
+}
+
+#More {
+    display: inline-block;
+    position: absolute;
+    margin-left: 1140px;
+}
+
+/* ----------------- */
+
+#blackline {
+    background-color: black;
+    height: 3px;
+    margin-top: -8px;
+}
+
+/* ----------------------- */
+
+#underheader {
+    font-size: 45px;
+    margin-top: 40px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ------------------- */
+
+.box1content {
+    /* padding-left: 60px; */
+}
+
+
+#box1 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(73, 190, 181);
+    display: inline-block;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#box1-text1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#box1-text2 {
+    color: white;
+    font-size: 42px;
+    margin-top: -50px;
+    margin-left: 65px;
+
+}
+
+#box1-text3 {
+    color: white;
+    font-size: 42px;
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+#box1-text4 {
+    color: white;
+    font-size: 42px;
+    margin-top: -50px;
+    margin-left: 105px;
+}
+
+#box1-text5 {
+    color: white;
+    font-size: 42px;
+    margin-left: 80px;
+}
+
+#arrow1 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -89px;
+}
+
+/* ------------------------- */
+
+#box2 {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 200px;
+}
+
+#hover1 {
+    height: 400px;
+    margin-left: 200px;
+}
+
+/* -------------------------- */
+
+
+#box3 {
+    display: inline-block;
+    position: absolute;
+    width: 380px;
+    height: 275px;
+    margin-left: 820px;
+}
+
+/* ------------------------- */
+
+#box4 {
+    display: inline-block;
+    position: absolute;
+    width: 380px;
+    height: 100px;
+    margin-left: 820px;
+    margin-top: 300px;
+    background-color: rgb(73, 190, 181);
+}
+
+#box4text {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 35px;
+}
+
+#arrow2 {
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 25px;
+    height: 50px;
+}
+
+/* ---------------------------- */
+
+#box5 {
+    width: 1200px;
+    height: 350px;
+    background-color: rgb(181, 235, 236);
+    position: absolute;
+    margin-top: 430px;
+}
+
+
+#one {
+    border-radius: 50%;
+    height: 165px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+#two {
+    border-radius: 50%;
+    height: 165px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+
+#three {
+    border-radius: 50%;
+    height: 165px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 420px;
+}
+
+#four {
+    border-radius: 50%;
+    height: 165px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 620px;
+}
+
+#five {
+    border-radius: 50%;
+    height: 165px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 820px;
+}
+
+#six {
+    border-radius: 50%;
+    height: 165px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1020px;
+}
+
+/*  */
+
+#text1 {
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 270px;
+    margin-left: 60px;
+
+}
+#text2 {
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 270px;
+    position: absolute;
+    margin-left: 280px;
+}
+#text3 {
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 270px;
+    position: absolute;
+    margin-left: 475px;
+}
+#text4 {
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 270px;
+    position: absolute;
+    margin-left: 660px;
+}
+#text5 {
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 270px;
+    margin-left: 875px;
+    position: absolute;
+}
+#text6 {
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 270px;
+    margin-left: 1045px;
+    position: absolute;
+}
+
+
+/* 
+*/
+
+
+.w3-container {
+    height: 180px;
+    width: 1200px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 540px;
+}
+
+#image3 {
+    position: absolute;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#alert1 {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+#alert2 {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+#acceptbutton {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(73, 190, 181);
+    box-shadow: black 3px 5px;
+    margin-left: 1050px;
+    margin-top: 60px;
+}
+
+
+
